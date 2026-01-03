@@ -16,3 +16,6 @@ Invoke-WebRequest `
   -Uri https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe `
   -OutFile Miniforge3-Windows-x86_64.exe
 ```
+
+# 2. Train a robot policy
+https://huggingface.co/docs/lerobot/en/il_robots
