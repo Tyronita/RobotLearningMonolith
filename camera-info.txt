@@ -1,0 +1,13 @@
+--- Detected Cameras ---
+Camera #0:
+  Name: OpenCV Camera @ 0
+  Type: OpenCV
+  Id: 0
+  Backend api: DSHOW
+  Default stream profile:
+    Format: -1.0
+    Fourcc: YUY2
+    Width: 640
+    Height: 480
+    Fps: 0.0
+--------------------
