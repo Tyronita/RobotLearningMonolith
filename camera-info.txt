@@ -1,8 +1,25 @@
+We are smart and recorded it and found the FPS=26.56 (./fps.py)
+
 --- Detected Cameras ---
 Camera #0:
   Name: OpenCV Camera @ 0
   Type: OpenCV
   Id: 0
+  Backend api: DSHOW
+  Default stream profile:
+    Format: -1.0
+    Fourcc: YUY2
+    Width: 640
+    Height: 480
+    Fps: 0.0
+-------------------- (./fps.py)  ---
+-- find by playing teleop_visualisation.py - in err msg:
+-- actual_fps=30.00003000003
+
+Camera #1:
+  Name: OpenCV Camera @ 1
+  Type: OpenCV
+  Id: 1
   Backend api: DSHOW
   Default stream profile:
     Format: -1.0

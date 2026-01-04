@@ -21,6 +21,8 @@ pip install -e ".[feetech]"
 lerobot-find-port
 
 @REM Run Callibration Script -- run twice for leader and follower and replace port name
+@REM https://huggingface.co/docs/lerobot/en/cameras#setup-cameras
+lerobot-find-cameras opencv
 python calibrate-so-101s.py
 
 @REM COM5 -- follower
@@ -28,3 +30,10 @@ C:\Users\evano\.cache\huggingface\lerobot\calibration\robots\so101_follower\my_a
 
 @REM COM6 -- leader
 C:\Users\evano\.cache\huggingface\lerobot\calibration\robots\so101_follower\my_awesome_leader_arm.json
+
+@REM Record Dataset
+python record_dataset.py
+
+@REM Train Policy
+
+@REM Inference on Policy

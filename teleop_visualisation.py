@@ -26,11 +26,20 @@ def main():
     
     # Configure camera
     camera_config = {
-        "arm": OpenCVCameraConfig(
+        "gripper_cam": OpenCVCameraConfig(
             index_or_path=0, 
             width=640,
             height=480,
-            fps=0,
+            fps=26.000026000026,
+            color_mode=ColorMode.RGB,
+            rotation=Cv2Rotation.NO_ROTATION,
+            fourcc="YUY2"
+        ),
+        "exocentrc_cam": OpenCVCameraConfig(
+            index_or_path=1, 
+            width=640,
+            height=480,
+            fps=30.00003000003,
             color_mode=ColorMode.RGB,
             rotation=Cv2Rotation.NO_ROTATION,
             fourcc="YUY2"
