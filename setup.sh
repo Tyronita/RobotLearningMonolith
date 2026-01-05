@@ -50,11 +50,3 @@ C:\Users\evano\.cache\huggingface\lerobot\calibration\robots\so101_follower\my_a
 # COM6 -- leader
 C:\Users\evano\.cache\huggingface\lerobot\calibration\robots\so101_follower\my_awesome_leader_arm.json
 
-# Record Dataset
-python record_teleoperated_dataset.py
-
-# Train Policy
-#TODO
-
-# Inference on Policy
-#TODO

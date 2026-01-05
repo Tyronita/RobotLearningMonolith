@@ -1,21 +1,30 @@
-# Robotics Learning Course
+# Installation and Setup
+
+## Robotics Learning Course
 https://huggingface.co/learn/robotics-course/unit0/1
 
-# Operation Guide
+## SO101 Operation Guide
 https://huggingface.co/docs/lerobot/so101
 
-# Discord
+## WowRobo SO101 Discord
 https://discord.gg/dhTGTvJQC4
 
-# SO-101 1. Installation of so-101
-https://huggingface.co/docs/lerobot/en/installation
-
-```powershell
-# Conda Install
-Invoke-WebRequest `
-  -Uri https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe `
-  -OutFile Miniforge3-Windows-x86_64.exe
-```
-
-# 2. Train a robot policy
+## Train a robot policy
 https://huggingface.co/docs/lerobot/en/il_robots
+
+# Setup and Guide
+
+## Linux / MacOs
+`sh setup.sh`
+
+## Windows
+`./setup.bat`
+
+## Record Dataset
+`python record_teleoperated_dataset.py`
+
+## Train Policy
+`# TODO`
+
+## Inference on Policy
+`# TODO`

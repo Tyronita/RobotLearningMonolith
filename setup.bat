@@ -55,12 +55,3 @@ C:\Users\evano\.cache\huggingface\lerobot\calibration\robots\so101_follower\my_a
 
 @REM COM6 -- leader
 C:\Users\evano\.cache\huggingface\lerobot\calibration\robots\so101_follower\my_awesome_leader_arm.json
-
-@REM Record Dataset
-python record_teleoperated_dataset.py
-
-@REM Train Policy
-@REM TODO
-
-@REM Inference on Policy
-@REM TODO
